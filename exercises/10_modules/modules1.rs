@@ -5,7 +5,8 @@ mod sausage_factory {
         String::from("Ginger")
     }
 
-    fn make_sausage() {
+    // Done: just need to add pub here
+    pub fn make_sausage() {
         get_secret_recipe();
         println!("sausage!");
     }
