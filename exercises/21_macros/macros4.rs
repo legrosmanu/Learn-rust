@@ -3,10 +3,10 @@
 macro_rules! my_macro {
     () => {
         println!("Check out my macro!");
-    }
+    }; // ; must be added
     ($val:expr) => {
         println!("Look at this other macro: {}", $val);
-    }
+    }; // ; must be added
 }
 
 fn main() {
